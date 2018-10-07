@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/dwizzel-dev/gotest/stringutils"
+)
 
 func main() {
-	s := "world"
-	fmt.Printf("hello, %v\n", s)
+	fmt.Println(stringutils.Reverse("Hello Dwizzel!"))
 }
